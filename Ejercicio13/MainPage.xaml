@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio13.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Green" 
+               Padding="24" 
+               CornerRadius="0">
+
+            <Label Text="Ejercicio 1.3" HorizontalTextAlignment="Center" TextColor="White"  FontSize="36"/>
+                   
+                   
+        </Frame>
+
+       
+        <Label Text="Telefono" FontSize="Default" Padding="5"/>
+        <Entry x:Name="nom" Placeholder="Nombre" Keyboard="Text"/>
+
+
+        <Label Text="Telefono" FontSize="Default" Padding="5"/>
+        <Entry x:Name="ape" Placeholder="Apellido"  Keyboard="Text"/>
+
+
+        <Label Text="Telefono" FontSize="Default" Padding="5"/>
+        <Entry x:Name="edad" Placeholder="Edad" Keyboard="Numeric"/>
+
+
+        <Label Text="Telefono" FontSize="Default" Padding="5"/>
+        <Entry x:Name="mail" Placeholder="Correo Electrónico"  Keyboard="Email"/>
+
+
+        <Label Text="Telefono" FontSize="Default" Padding="5"/>
+        <Entry x:Name="address" Placeholder="Dirección"  Keyboard="Text"/>
+       
+        
+        <Button Text="Salvar" x:Name="btnGuardar" WidthRequest="200" Clicked="btnGuardar_Clicked" HorizontalOptions="Center" BackgroundColor="Orange" TextColor="White" CornerRadius="4" Margin="10"/>
+
+
+    </StackLayout>
+
+</ContentPage>
